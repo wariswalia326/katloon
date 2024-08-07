@@ -55,6 +55,8 @@ const setProduct = async (req, res) => {
       description: bodyObj.description,
       imageUrl: bodyObj.imageUrl,
       category: bodyObj.category,
+      price: bodyObj.price,
+      quantity: bodyObj.quantity,
     });
   }
   try {
